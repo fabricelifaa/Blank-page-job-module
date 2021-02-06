@@ -1,0 +1,536 @@
+#candidature_cover{
+    height: 120px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#no-connection-img {
+
+    height: 250px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 250px;
+}
+
+#candidature_cover:after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+}
+.home_app_load_more_spinner {
+    width: 100%;
+    height: 60px;
+    left: 0;
+    bottom: 0%;
+    display: table;
+    z-index: 5;
+}
+
+.home_app_load_more_spinner>div{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home_app_load_more_spinner .loading-5 .svg-wrapper{
+    width: 40px;
+    height: 40px;
+}
+
+#candidature_cover h1{
+    color: #fff;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    z-index: 5;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#candidature_subtitle{
+    padding: 15px;
+}
+
+#candidature_MTN{
+    padding-bottom: 15px;
+}
+
+.form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+#candidature_MTN_form{
+    padding: 0 15px 100px;
+    background: #fff;
+}
+
+#candidature_MTN_form input.form-control{
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+#candidature_MTN_form input.form-control::placeholder{
+    color: rgba(203,203,204,.9);
+}
+
+#candidature_MTN_form input.has-error-form{
+    
+    border-bottom: 1px solid red !important;
+}
+
+#candidature_upload_cv{
+    padding: 0 15px 100px;
+    background: #fff;
+}
+
+#candidature_upload_cv input.form-control{
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+}
+
+#candidature_upload_cv input.form-control::placeholder{
+    color: rgba(203,203,204,.9);
+}
+
+#candidature_upload_cv input.has-error-form{
+    
+    border-bottom: 1px solid red !important;
+}
+
+#candidature_upload_cv [type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+}
+#candidature_upload_cv [type="file"] + label {
+    /* background: #5a6268; */
+    border: none;
+    /* border-radius: 30px; */
+    color: #0168fa; 
+    cursor: pointer;
+    display: inline-block;
+    font-size: inherit;
+    height: 40px;
+    margin-bottom: 1rem;
+    outline: none;
+    padding: 1rem;
+    position: relative;
+    transition: all 0.3s;
+}
+#candidature_upload_cv [type="file"] + label:hover {
+     /*background-color: #0158d4;*/
+    /* border-color: #545b62;; */
+    text-decoration: underline;
+}
+
+
+#submit_form_container{
+    left: 0;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+#submit_form_container .btn{
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.submit_form_container{
+    left: 0;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.submit_form_container .btn{
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 30px;
+}
+
+
+#spinner_overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: table;
+    z-index: 3;
+    background: rgba(255,255,255,.5);
+}
+
+#spinner_overlay>div{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#spinner_overlay .loading-5 .svg-wrapper{
+    width: 40px;
+    height: 40px;
+}
+
+#candidature_MTN_message{
+    position: absolute;
+    left: 0;
+    width:100%;
+    height: 100%;
+    top: 0;
+    display: table;
+    z-index: 5;
+}
+
+#candidature_MTN_message>div{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 50px;
+}
+
+
+
+#candidature_MTN_message>div i{
+    font-size: 100px;
+    color: #11b55b;
+}
+
+
+.job-offer-row{
+    padding: 15px;
+    border-bottom: 0.5px solid #ccc;
+    width: 100%;
+    display: table;
+}
+
+.job-offer-row>div{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.job-offer-row>div:last-child{
+    width: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #0678a5;
+}
+
+.job-offer-row>div:last-child i{
+    height: 30px;
+    width:30px;
+    background: #0678a5;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 30px;
+    display: block;
+    margin: 0 auto;
+    float: right;
+}
+
+.job-offer-row:last-child{
+    border: none;
+}
+
+.job-offer-row h3{
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+
+.job-offer-row-line>div{
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.job-offer-row-line>div i{
+    color:#0678a5;
+}
+
+#iframe_back_btn{
+    width: 30px;
+    height: 30px;
+    background: #0678a5;
+    padding: 0;
+    border-radius: 50%;
+    top: 15px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.job-submit-step{
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.job-submit-step>div{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.job-submit-step>div.active span{
+    color: #000;
+    border-bottom: 2px solid #fecc00;
+    padding-bottom: 3px;
+}
+
+
+#candidature_MTN_container{
+    padding-bottom: 300px;
+}
+
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 15px;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    /*background-color: #eee;*/
+    border-radius: 50%;
+    border: 2px solid #d6d6d6;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #fecc00;
+    border-color: #fecc00;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+.checkbox-container span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.checkbox-container-title{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.checkbox-container{
+    display: table;
+    width: 100%;
+}
+
+
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 15px;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom radio button */
+.radio-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.radio-container .checkmark.has-error-form {
+    
+    border: 2px solid red;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .checkmark {
+
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .checkmark {
+
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fecc00;
+}
+
+.radio-container-title{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    padding-top: 3px;
+}
+
+
+.radio-container span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.radio-container{
+    display: table;
+    width: 100%;
+}
+
+.step-container{
+    padding: 15px 0;
+}
+
+.job-diploma-list>div{
+    width: 30%;
+}
+
+.job-sept-container-header{
+    display: table;
+    width: 100%;
+}
+
+.job-sept-container-header>div{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.job-degree-list-separator{
+    border-bottom: 2px solid #ccc;
+    margin: 0 -30px;
+}
+
+.job-degree-list{
+    padding: 15px 0;
+}
+
+.job-add-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    background: #fecc00;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    float: right;
+}
+
+.job-delete-degree{
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #fb2a33;
+    font-weight: bold;
+    float: right;
+}
